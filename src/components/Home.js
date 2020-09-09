@@ -1,9 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
+import './Home.css';
 function Home() {
     return (
-        <div>
-            <h1>This is HOMEPAGE</h1>
+        <div className="home">
             <div className="home_header">
                 <div className="home_headerLeft">
                    <Link to="/about">About</Link>
