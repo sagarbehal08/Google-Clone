@@ -18,3 +18,28 @@
 .home_header a:hover{
     text-decoration: underline;
 }
+
+.home_headerRight{
+    display: flex;
+    text-align: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+.home_headerRight > .MuiSvgIcon-root{
+ margin-right:20px;
+}
+.home_body{
+    flex:1;
+    display: flex;
+    margin-top:10%;
+    flex-direction: column;
+}
+.home_body > img{
+    object-fit: contain;
+    height:100px;
+}
+.home_inputContainer{
+    display: flex;
+    margin-bottom:10%;
+    flex-direction: column;
+}
